@@ -120,12 +120,4 @@
 //}
 //double average = SumOfLength / students.Length;
 //Console.WriteLine(average);
-
-
-string name = "Javid";
-
-foreach (var item in name)
-{
-    Console.WriteLine(item);
-}
 #endregion
