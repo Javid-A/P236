@@ -39,9 +39,8 @@
 //Console.WriteLine(number+number2);
 
 
-GetStudentName();
 GetStudentAge();
-
+Console.WriteLine(GetAge());
 
 string GetStudentName()
 {
@@ -52,4 +51,11 @@ string GetStudentName()
 void GetStudentAge()
 {
     Console.WriteLine(19);
+}
+
+int GetAge()
+{
+    int age = 30;
+    int total = 50;
+    return total;
 }
