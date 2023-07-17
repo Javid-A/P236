@@ -39,23 +39,23 @@
 //Console.WriteLine(number+number2);
 
 
-GetStudentAge();
-Console.WriteLine(GetAge());
+//GetStudentAge();
+//Console.WriteLine(GetAge());
 
-string GetStudentName()
-{
-    return "Elnur";
-}
+//string GetStudentName()
+//{
+//    return "Elnur";
+//}
 
 
-void GetStudentAge()
-{
-    Console.WriteLine(19);
-}
+//void GetStudentAge()
+//{
+//    Console.WriteLine(19);
+//}
 
-int GetAge()
-{
-    int age = 30;
-    int total = 50;
-    return total;
-}
+//int GetAge()
+//{
+//    int age = 30;
+//    int total = 50;
+//    return total;
+//}
