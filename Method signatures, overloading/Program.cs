@@ -61,10 +61,10 @@ class Program
         return num;
     }
     //Methodun return type-i onun signature-i SAYILMIR!!!
-    static string Add(int num)
-    {
-        return num.ToString();
-    }
+    //static string Add(int num)
+    //{
+    //    return num.ToString();
+    //}
     static int Add(int num, int num2)
     {
         return num + num2;
