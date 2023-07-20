@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Method signatures, overload
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memory Allocation, Array & String methods", "Memory Allocation, Array & String methods\Memory Allocation, Array & String methods.csproj", "{8E3DA0E6-22D2-4B9A-8BAE-AEBF0E4D32B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilder, Class", "StringBuilder, Class\StringBuilder, Class.csproj", "{138F07A7-DBFF-4962-AFE7-A47926C0D744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilder, Class", "StringBuilder, Class\StringBuilder, Class.csproj", "{138F07A7-DBFF-4962-AFE7-A47926C0D744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class", "Class\Class.csproj", "{9A834FB1-54DA-49CB-9539-0F091804F7B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{138F07A7-DBFF-4962-AFE7-A47926C0D744}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{138F07A7-DBFF-4962-AFE7-A47926C0D744}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{138F07A7-DBFF-4962-AFE7-A47926C0D744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A834FB1-54DA-49CB-9539-0F091804F7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A834FB1-54DA-49CB-9539-0F091804F7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A834FB1-54DA-49CB-9539-0F091804F7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A834FB1-54DA-49CB-9539-0F091804F7B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

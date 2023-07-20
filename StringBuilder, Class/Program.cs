@@ -96,41 +96,41 @@ string student = "Inal";
 //    Diameter = 20
 //};
 
-Cup cup = new Cup();
+//Cup cup = new Cup();
 
-cup.Height = 13;
-cup.Image = "cup.jpg";
-cup.Diameter = 7;
-cup.HasEmblem = true;
-cup.Count = 500;
+//cup.Height = 13;
+//cup.Image = "cup.jpg";
+//cup.Diameter = 7;
+//cup.HasEmblem = true;
+//cup.Count = 500;
 
-Cup cup2 = new Cup();
+//Cup cup2 = new Cup();
 
-cup2.Height =10;
-cup2.Image = "cup2.png";
-cup2.Diameter = 5;
-cup2.HasEmblem = false;
-cup2.Count = 200;
+//cup2.Height =10;
+//cup2.Image = "cup2.png";
+//cup2.Diameter = 5;
+//cup2.HasEmblem = false;
+//cup2.Count = 200;
 
-class Cup
-{
-    public byte Height;
-    public byte Diameter;
-    public bool HasEmblem;
-    public string Image;
-    public int Count;
+//class Cup
+//{
+//    public byte Height;
+//    public byte Diameter;
+//    public bool HasEmblem;
+//    public string Image;
+//    public int Count;
 
 
-    public Cup()
-    {
-        
-    }
-    public Cup(byte test)
-    {
+//    public Cup()
+//    {
 
-    }
-    public Cup(string name)
-    {
+//    }
+//    public Cup(byte test)
+//    {
 
-    }
-}
+//    }
+//    public Cup(string name)
+//    {
+
+//    }
+//}
