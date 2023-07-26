@@ -42,7 +42,7 @@ Console.WriteLine(student.Point);
 
 //Console.WriteLine(student.GetPoint());
 //Console.WriteLine("After change");
-//student.SetPoint(110);
+//student.SetPoint(student._point);
 //Console.WriteLine(student.GetPoint());
 //student.GetNameAndSurname();
 //student.GetInfo();
