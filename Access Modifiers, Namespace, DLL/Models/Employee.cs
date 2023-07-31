@@ -14,7 +14,6 @@ namespace Access_Modifiers__Namespace__DLL.Models
         public Employee()
         {
             Person person1 = new Person();
-            person1.another
             AnotherAssemblyProtected = "";
             AnotherAssemblyProtectedInternal = "";
         }   

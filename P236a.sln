@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class members", "Class memb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance, Access modifiers, Encapsulation", "Inheritance, Access modifiers, Encapsulation\Inheritance, Access modifiers, Encapsulation.csproj", "{3F5F40BF-FF21-4329-A5F2-61AF632F3006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Access Modifiers, Namespace, DLL", "Access Modifiers, Namespace, DLL\Access Modifiers, Namespace, DLL.csproj", "{C5679F21-326F-41F2-BF06-3A0C7E126E8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Access Modifiers, Namespace, DLL", "Access Modifiers, Namespace, DLL\Access Modifiers, Namespace, DLL.csproj", "{C5679F21-326F-41F2-BF06-3A0C7E126E8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLL", "DLL\DLL.csproj", "{7A5A897E-4946-4D85-98A5-06FDE3C18A0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DLL", "DLL\DLL.csproj", "{7A5A897E-4946-4D85-98A5-06FDE3C18A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstarct, Interface", "Abstarct, Interface\Abstarct, Interface.csproj", "{43475E8C-35FF-436E-BDCA-947A48FA9911}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{7A5A897E-4946-4D85-98A5-06FDE3C18A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A5A897E-4946-4D85-98A5-06FDE3C18A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A5A897E-4946-4D85-98A5-06FDE3C18A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43475E8C-35FF-436E-BDCA-947A48FA9911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43475E8C-35FF-436E-BDCA-947A48FA9911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43475E8C-35FF-436E-BDCA-947A48FA9911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43475E8C-35FF-436E-BDCA-947A48FA9911}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

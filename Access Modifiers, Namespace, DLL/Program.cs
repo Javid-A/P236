@@ -45,6 +45,32 @@ AnotherAssembly anotherAssembly = new AnotherAssembly();
 Product product = new Product();
 Computer comp = new Computer();
 
+Point point = new Point();
+DerivedPoint derivedPoint = new DerivedPoint();
+
 
 
 Person person = new Person();
+
+
+
+int num = 5;
+int num2 = 10;
+//int total = SumV2(num, num2);
+int total;
+Sum(out total, num, num2);
+
+Console.WriteLine(total);
+static void Sum(out int asdasda, int num, int num2)
+{
+    asdasda = num + num2;
+}
+
+
+static void SumV2(int asdasda, int num, int num2)
+{
+    asdasda = num + num2;
+    Console.WriteLine($"Inside method: {asdasda}");
+}
+
+

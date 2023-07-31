@@ -11,6 +11,8 @@ namespace Access_Modifiers__Namespace__DLL.Models
         protected int Count;
         internal double Price;
 
-       
+        public Computer()
+        {
+        }
     }
 }
