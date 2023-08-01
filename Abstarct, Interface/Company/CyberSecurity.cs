@@ -19,5 +19,10 @@ namespace Abstarct__Interface.Company
                 Salary = value * 40;
             }
         }
+
+        public override void Test()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

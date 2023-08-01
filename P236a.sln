@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Access Modifiers, Namespace
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DLL", "DLL\DLL.csproj", "{7A5A897E-4946-4D85-98A5-06FDE3C18A0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstarct, Interface", "Abstarct, Interface\Abstarct, Interface.csproj", "{43475E8C-35FF-436E-BDCA-947A48FA9911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstarct, Interface", "Abstarct, Interface\Abstarct, Interface.csproj", "{43475E8C-35FF-436E-BDCA-947A48FA9911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{8AA4A71F-24E2-49F8-AE65-B7C560BB5C2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{43475E8C-35FF-436E-BDCA-947A48FA9911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43475E8C-35FF-436E-BDCA-947A48FA9911}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43475E8C-35FF-436E-BDCA-947A48FA9911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA4A71F-24E2-49F8-AE65-B7C560BB5C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA4A71F-24E2-49F8-AE65-B7C560BB5C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA4A71F-24E2-49F8-AE65-B7C560BB5C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA4A71F-24E2-49F8-AE65-B7C560BB5C2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
