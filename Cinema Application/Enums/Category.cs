@@ -8,7 +8,7 @@ namespace Cinema_Application.Enums
 {
     internal enum Category
     {
-        SciFi,
+        SciFi=1,
         Drama,
         Action,
         Horror,

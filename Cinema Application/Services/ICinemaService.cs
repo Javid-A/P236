@@ -15,6 +15,6 @@ namespace Cinema_Application.Services
         void EditHall(string oldNo, string newNo);
         void ShowHalls();
         void ShowSeatsByHallNo(string no);
-        void Reserve();
+        void Reserve(string no, byte row, byte column);
     }
 }

@@ -39,7 +39,7 @@ namespace Cinema_Application.Services
             }
         }
 
-        private Hall FindHall(string oldNo)
+        Hall FindHall(string oldNo)
         {
             Hall existedHall = null;
             string changedOldNo = oldNo.Replace("-", "").ToLower().Trim();
@@ -74,10 +74,31 @@ namespace Cinema_Application.Services
                 Console.WriteLine(seat);
             }
         }
-        public void Reserve()
+        public void Reserve(string no,byte row, byte column)
         {
-            throw new NotImplementedException();
-        }
+            Hall hall = FindHall(no);
+            if(hall is null)
+            {
+                Console.WriteLine($"{no} cannot be found");
+                return;
+            }
+            
+            if(row>hall.Seats.GetLength(0) || column > hall.Seats.GetLength(1))
+            {
+                Console.WriteLine("Please choose valid row or column");
+                return;
+            }
 
+            if (!hall.Seats[row-1,column-1].IsFull)
+            {
+                Console.WriteLine($"You have successfuly reserved Row:{row}, Column{column}");
+                hall.Seats[row - 1, column - 1].IsFull = true;
+            }
+            else
+            {
+                Console.WriteLine("Please choose another seat");
+                ShowSeatsByHallNo(no);
+            }
+        }
     }
 }
