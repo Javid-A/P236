@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Generic_type__Collections
 {
-    internal class Group:ITestable
+    internal class Group: BaseEntity
     {
         public string No { get; set; }
         public double Overall { get; set; }
