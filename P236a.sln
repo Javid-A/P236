@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinema Application", "Cinem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic type, Collections", "Generic type, Collections\Generic type, Collections.csproj", "{20CDD6A4-89D7-45A3-9485-C749E05C49ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{9CB9DD0B-4500-4F41-B242-FD9F0BFBE998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate", "Delegate\Delegate.csproj", "{9CB9DD0B-4500-4F41-B242-FD9F0BFBE998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exception", "Exception\Exception.csproj", "{AA487B57-9BF1-4CAC-AF91-ED845236B4AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{9CB9DD0B-4500-4F41-B242-FD9F0BFBE998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CB9DD0B-4500-4F41-B242-FD9F0BFBE998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CB9DD0B-4500-4F41-B242-FD9F0BFBE998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA487B57-9BF1-4CAC-AF91-ED845236B4AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA487B57-9BF1-4CAC-AF91-ED845236B4AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA487B57-9BF1-4CAC-AF91-ED845236B4AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA487B57-9BF1-4CAC-AF91-ED845236B4AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
